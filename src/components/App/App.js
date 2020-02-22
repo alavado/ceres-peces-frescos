@@ -8,11 +8,13 @@ import { Switch, Route } from 'react-router-dom'
 const App = () => {
   return (
     <div className="App">
-      <Header />
-      <Switch>
-        <Route path="/" exact component={Landing} />
-        <Route path="/evaluacion" exact component={Evaluacion} />
-      </Switch>
+      <div className="App__container">
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Landing} />
+          <Route path="/evaluacion" exact component={Evaluacion} />
+        </Switch>
+      </div>
     </div>
   )
 }
