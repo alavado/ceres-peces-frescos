@@ -1,0 +1,9 @@
+.Header {
+  display: flex;
+  padding: 1vw;
+  height: 2vw;
+}
+
+.Header__icono svg {
+  color: white;
+}

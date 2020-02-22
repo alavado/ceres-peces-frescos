@@ -6,10 +6,11 @@ const Landing = () => {
   return (
     <div className="Landing">
       <h1 className="Landing__titulo">Ceres peces</h1>
-      <p>
-
+      <p className="Landing__descripcion">
+        Aquí tenemos que poner una descripción de la aplicación<br/>
+        Aquí tenemos que poner una descripción de la aplicación
       </p>
-      <Link to="/evaluacion" className="Landing__boton">Evaluar</Link>
+      <Link to="/evaluacion" className="Landing__boton">Comenzar<br/>evaluación</Link>
     </div>
   )
 }

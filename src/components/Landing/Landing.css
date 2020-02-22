@@ -1,20 +1,39 @@
 .Landing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 30% 40% 30%;
+  justify-items: center;
+  align-items: end;
+  height: calc(100% - 2vw);
 }
 
 .Landing__titulo {
   color: white;
-  border-radius: 4px 4px 0 0;
-  padding-top: 33%;
-  font-family: 'Lato';
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2.5vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, .15);
+  padding: 32px 0;
+}
+
+.Landing__descripcion {
+  color: white;
+  padding: 32px 0;
+  align-self: start;
+  font-size: 1.2vw;
+  width: 55%;
+  line-height: 1.15;
+  text-align: center;
 }
 
 .Landing__boton {
   color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: linear-gradient(#002D43, #00121F);
+  border: 1px solid rgba(255, 255, 255, .5);
+  border-radius: 1vw;
+  padding: 1vw 3vw;
+  line-height: 1.1;
+  font-size: 1.2vw;
+  align-self: start;
+  text-align: center;
 }
