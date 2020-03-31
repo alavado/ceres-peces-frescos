@@ -3,25 +3,29 @@
   grid-template-rows: 30% 40% 30%;
   justify-items: center;
   align-items: end;
-  height: calc(100% - 2vw);
+  height: 100%;
 }
 
 .Landing__titulo {
   color: white;
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 2.5em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, .15);
   padding: 32px 0;
+  width: 60%;
+  text-align: center;
 }
 
 .Landing__descripcion {
   color: white;
-  padding: 32px 0;
+  padding: 16px;
   align-self: start;
-  font-size: 1.2vw;
-  width: 55%;
+  font-size: 1.2em;
+  width: 60%;
   line-height: 1.15;
   text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 8px;
 }
 
 .Landing__boton {
@@ -30,10 +34,10 @@
   letter-spacing: 1px;
   background: linear-gradient(#002D43, #00121F);
   border: 1px solid rgba(255, 255, 255, .5);
-  border-radius: 1vw;
-  padding: 1vw 3vw;
+  border-radius: 4px;
+  padding: 16px 32px;
   line-height: 1.1;
-  font-size: 1.2vw;
+  font-size: 1.2em;
   align-self: start;
   text-align: center;
 }

@@ -6,7 +6,7 @@ import './Header.css'
 const Header = () => {
   return (
     <div className="Header">
-      <FontAwesomeIcon className="Header__icono" icon={faBars} color="white" size="lg" />
+      {/* <FontAwesomeIcon className="Header__icono" icon={faBars} color="white" size="lg" /> */}
     </div>
   )
 }

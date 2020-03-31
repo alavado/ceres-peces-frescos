@@ -1,0 +1,49 @@
+.Evaluacion {
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+}
+
+.Evaluacion__titulo {
+  color: white;
+  margin-bottom: 32px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 16px;
+  border-radius: 4px;
+  font-size: 1.2em;
+}
+
+.Evaluacion__icono {
+  margin-right: 16px;
+}
+
+.Evaluacion__lista-especies {
+  display: flex;
+  flex-direction: column;
+}
+
+.Evaluacion__especie {
+  background-color: rgba(255, 255, 255, .9);
+  color: black;
+  flex: 1;
+  padding: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  animation: aparece-especie .25s ease-in-out both;
+}
+
+@keyframes aparece-especie {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
