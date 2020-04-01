@@ -18,7 +18,7 @@
 .Pregunta__contenedor_imagen {
   max-width: 100%;
   margin-bottom: 0;
-  height: 40vh;
+  max-height: 40vh;
   background-color: white;
   display: flex;
   flex-direction: column;
