@@ -8,15 +8,15 @@ import pescado3 from '../../../assets/especies/pescado3.png'
 const alternativas = [
   {
     imagen: pescado3,
-    enunciado: 'Color amarillento'
+    enunciado: 'Piel opaca'
   },
   {
     imagen: pescado2,
-    enunciado: 'Piel ligeramente nacarada'
+    enunciado: 'Piel brillante'
   },
   {
     imagen: pescado1,
-    enunciado: 'Piel nacarada'
+    enunciado: 'Piel brillante resplandeciente'
   }
 ]
 
